@@ -1,0 +1,138 @@
+*{
+    justify-content: space-between;
+    max-width: 100%;
+}
+
+html{
+    font-family: Cera Pro;
+    background-color: whitesmoke;
+  
+}
+
+.container{
+    max-width: 100%;
+    position: relative;
+    margin: 10px auto;
+    background-color: lightblue;
+    padding: 20px 50px;
+    border-radius: 10px;
+    text-align: center;
+    text-justify: newspaper;
+
+}
+
+.main-title, .smaller-title{
+    font-family: Cera Pro;
+    font-style: italic;
+    text-align: center;
+    background-color: lightcyan;
+    padding: 25px;
+    border-radius: 10px;
+    
+}
+
+.smaller-title{
+    font-weight: 400;
+    font-style: normal;
+    
+}
+
+a{
+    align-items: center;
+    display: inline-block;
+    text-decoration: none;
+    outline: none;
+    background-color: brown;
+    color: beige;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+
+}
+
+a:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.featured-image{
+    max-width: 100%;
+    padding: 25px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.img-desc{
+    font-family: Cera Pro;
+    padding: 25px;
+    font-size: small;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+
+.game-info{
+    font-family: Cera Pro;
+    padding: 25px;
+    margin: 25px 0;
+    background-color: lightcyan;
+    border-radius: 10px;
+
+    
+}
+
+.quotes-container{
+    font-family: Cera Pro;
+    background-color: aquamarine;
+    padding: 25px;
+    border-radius: 10px;
+    margin: 25px 0;
+}
+
+.featured-image2{
+    max-width: 100%;
+    max-height: 100%;
+    padding: 25px;
+    text-align: center;
+    margin: 25px 0;
+}
+
+.trivias{
+    background-color: aqua;
+    font-family: Cera Pro;
+    margin: 25px 0;
+    padding: 25px;
+    border-radius: 10px;
+    text-align: left;
+}
+.trivia-text{
+    text-align: center;
+}
+
+.gameplay-info{
+    font-family: Cera Pro;
+    background-color: navy;
+    color: aliceblue;
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 25px 0;
+}
+
+.moreinfo{
+    font-family: Cera Pro;
+    background-color: bisque;
+    padding: 25px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.copyright{
+    font-style: italic;
+    font-weight: 400;
+}
